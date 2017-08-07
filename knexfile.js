@@ -6,8 +6,7 @@ module.exports = {
     client: 'pg',
     connection: 'postgres://localhost/yachtowners'
   },
-  // production: {
-  //   client: 'pg',
-  //   connection: "postgres://gnzmxcukwaoanf:3addd753cc1060f079f5524c800d9c8248af121c3c3304b09a6c656e6573755a@ec2-50-17-217-166.compute-1.amazonaws.com:5432/d7irddktv1t3fm"
-  // },
+  production: {
+    client: 'postgresql',
+    connection: 'postgres://jyafkxqkqguzze:25724566de7a6191179d71197f378fe736f4584dd35f93e38a66cc38f2e82c46@ec2-50-19-105-113.compute-1.amazonaws.com:5432/d4abv9i3sgth9a'
 };
