@@ -1,0 +1,31 @@
+{
+  "name": "yacht_onwers_meet",
+  "version": "1.0.0",
+  "description": "A place for boat owners to share yachts and mingle the yacht lifestyle for less.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksondonovan/Yacht_Onwers_Meet.git"
+  },
+  "keywords": [
+    "yacht"
+  ],
+  "author": "Jackson Donovan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacksondonovan/Yacht_Onwers_Meet/issues"
+  },
+  "homepage": "https://github.com/jacksondonovan/Yacht_Onwers_Meet#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-generator": "^4.15.0",
+    "knex": "^0.13.0",
+    "path": "^0.12.7",
+    "pg": "^7.0.2"
+  }
+}
