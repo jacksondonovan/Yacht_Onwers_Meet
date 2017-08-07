@@ -10,7 +10,7 @@ router.post('/',(req,res)=>{
 })
 
 router.get('/:username',(req,res)=>{
-  res.render('profile')
+  res.render('profile',{msg:req.params.username})
 })
 
 module.exports = router;
