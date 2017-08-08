@@ -5,25 +5,30 @@
   }
 </style>
 
-<a href="/">HOME</a>
+<a href="/">Log Out</a>
+<a style="margin-left:10px;" href="/edit-profile/{{thisuser.username}}">Edit Profile</a>
 
 <div class="container">
   <div class="row col-sm-12">
     <div class="">
-      <h2>Welcome, {{msg}}</h2>
+      <h2>Welcome, {{thisuser.username}}</h2>
     </div>
     <div class="col-sm-5">
       <div class="boxy">
         <h3>My Summary</h3>
+        <h5>Username</h5>
+        <p>{{thisuser.username}}</p>
         <h5>First Name</h5>
-        <p>{{msg}}</p>
+        <p>{{thisuser.first_name}}</p>
+        <h5>Last Name</h5>
+        <p>{{thisuser.last_name}}</p>
       </div>
     </div>
     <div class="col-sm-7">
       <div class="boxy">
         <h3>My Summary</h3>
         <h5>First Name</h5>
-        <p>{{msg}}</p>
+        <p>{{thisuser.username}}</p>
       </div>
     </div>
   </div>

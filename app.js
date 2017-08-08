@@ -5,6 +5,7 @@ const port = process.env.PORT || 3000
 const bodyParser = require('body-parser')
 
 var profile = require('./routes/profile')
+var editProfile = require('./routes/edit-profile')
 
 app.set('view engine','hbs')
 app.set('views', path.join(__dirname, 'views'));
@@ -15,6 +16,7 @@ app.use(bodyParser.urlencoded({extended:false}))
 app.use(bodyParser.json())
 
 app.use('/profile',profile)
+app.use('/edit-profile',editProfile)
 
 app.get('/',(req,res)=>{
   res.render('index')

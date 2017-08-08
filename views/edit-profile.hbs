@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="row col-sm-12">
+    <div class="" align="center">
+      <form class="" action="/edit-profile/edited" method="post">
+        <div class="">
+          <label for="">Username</label>
+          <input type="text" name="username" value="{{details.username}}">
+        </div>
+        <div class="">
+          <input type="hidden" name="password" value="{{details.password}}">
+        </div>
+        <div class="">
+          <label for="">First Name</label>
+          <input type="text" name="first_name" value="{{details.first_name}}">
+        </div>
+        <div class="">
+          <label for="">Last Name</label>
+          <input type="text" name="last_name" value="{{details.last_name}}">
+        </div>
+        <div class="">
+          <button type="submit">Update Profile</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row col-sm-12">
+    <div class="" align="center">
+      <a href="/edit-profile/delete-user/{{details.username}}">Delete Profile</a>
+    </div>
+  </div>
+</div>
