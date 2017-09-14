@@ -8,3 +8,27 @@ html, body{
 h1{
   color: blue;
 }
+.carimg img {
+  height:50%;
+}
+.form-basic {
+
+
+}
+.form-row{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.main-content {
+  background-image: url('http://cdn.wallpapersafari.com/38/33/o70kuf.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+}
+.trans{
+  background-color: #faebd7;
+  opacity: 0.6;
+  width:300px;
+}
